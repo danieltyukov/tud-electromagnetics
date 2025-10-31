@@ -3,22 +3,22 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit linux built: Wed Apr 03, 2024 19:56:34 +0000)
 
 
-***** Simulation started at Fri, Oct 31 2025 15:11:48 +0100
+***** Simulation started at Fri, Oct 31 2025 16:28:46 +0100
       Running on host: "danieltyukov"
       In Directory: "/home/danieltyukov/coupled-line-coupler_wrk/data"
-      User: "danielty", Process ID: 53670
+      User: "danielty", Process ID: 78689
 
 
-SP SP1[1] <coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic>   freq=(40 GHz->100 GHz)
+SP SP1[1] <coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic>   freq=(10 GHz->100 GHz)
 
 
 Resource usage:
-    User time                 =     0.24 seconds.
-    System time               =     0.03 seconds.
-    Total CPU time            =     0.28 seconds.
-    Simulation stopwatch time =     0.25 seconds.
+    User time                 =     0.30 seconds.
+    System time               =     0.06 seconds.
+    Total CPU time            =     0.35 seconds.
+    Simulation stopwatch time =     0.26 seconds.
     Total stopwatch time      =     0.50 seconds.
 
-    Physical memory used: 151 MBytes.
+    Physical memory used: 152 MBytes.
     Incremental virtual memory (data only) used:  45.2 MBytes.
 
