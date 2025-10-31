@@ -1,0 +1,24 @@
+; Top Design: "coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=40 GHz Stop=100 GHz Step=1 GHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+model MSub1 MSUB H=0.254 mm Er=3.02 Mur=1 Cond=5.8e+7 Hu=3.9e+34 T=35 um TanD=0.002 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
+Port:TermG1  N__1 0 Num=1 Z=97 Ohm Noise=yes 
+MCLIN:CLin1  N__3 N__1 N__5 N__2 Subst="MSub1" W=146.141 um S=29 um L=0.7833 mm 
+Port:TermG2  N__3 0 Num=2 Z=97 Ohm Noise=yes 
+Port:TermG3  N__2 0 Num=3 Z=97 Ohm Noise=yes 
+Port:TermG4  N__5 0 Num=4 Z=97 Ohm Noise=yes 
