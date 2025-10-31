@@ -1,0 +1,25 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit linux built: Wed Apr 03, 2024 19:56:34 +0000)
+
+
+***** Simulation started at Fri, Oct 31 2025 16:51:15 +0100
+      Running on host: "danieltyukov"
+      In Directory: "/home/danieltyukov/coupled-line-coupler_wrk/data"
+      User: "danielty", Process ID: 80725
+
+Pt DC convergence is used.
+
+SP SP1[1] <coupled-line-coupler_lib:lumped_coupled_line_couplers:schematic>   freq=(10 GHz->100 GHz)
+
+
+Resource usage:
+    User time                 =     0.46 seconds.
+    System time               =     0.14 seconds.
+    Total CPU time            =     0.60 seconds.
+    Simulation stopwatch time =     0.70 seconds.
+    Total stopwatch time      =     0.95 seconds.
+
+    Physical memory used: 154 MBytes.
+    Incremental virtual memory (data only) used:  45.2 MBytes.
+

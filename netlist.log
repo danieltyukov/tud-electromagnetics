@@ -1,7 +1,7 @@
-; Top Design: "coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic"
+; Top Design: "coupled-line-coupler_lib:lumped_coupled_line_couplers:schematic"
 ; Netlisted using Hierarchy Policy: "Standard"
 
-Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="coupled-line-coupler_lib:ideal_coupled_line_couplers:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="coupled-line-coupler_lib:lumped_coupled_line_couplers:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
@@ -17,8 +17,20 @@ OutputPlan:SP1_Output \
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
 model MSub1 MSUB H=0.254 mm Er=3.02 Mur=1 Cond=5.8e+7 Hu=3.9e+34 T=35 um TanD=0.002 Rough=0 um DielectricLossModel=1 FreqForEpsrTanD=1.0 GHz LowFreqForTanD=1.0 kHz HighFreqForTanD=1.0 THz RoughnessModel=2 
-MCLIN:CLin1  N__4 N__2 N__5 N__3 Subst="MSub1" W=146.141 um S=389.755 um L=0.7833 mm 
-Port:TermG2  N__3 0 Num=2 Z=97 Ohm Noise=yes 
-Port:TermG3  N__2 0 Num=3 Z=97 Ohm Noise=yes 
-Port:TermG4  N__5 0 Num=4 Z=97 Ohm Noise=yes 
-Port:TermG1  N__4 0 Num=1 Z=97 Ohm Noise=yes 
+MCLIN:CLin1  N__5 N__15 N__0 N__1 Subst="MSub1" W=146.141 um S=389.755 um L=0.7833 mm 
+Port:TermG1  N__4 0 Num=1 Z=50 Ohm Noise=yes 
+Port:TermG2  N__13 0 Num=2 Z=50 Ohm Noise=yes 
+Port:TermG3  N__14 0 Num=3 Z=50 Ohm Noise=yes 
+Port:TermG4  N__19 0 Num=4 Z=50 Ohm Noise=yes 
+C:C1  N__4 N__5 C=51.324 fF 
+L:L1  N__5 N__3 L=249.438 pH Noise=yes  
+L:L2  N__1 N__7 L=249.438 pH Noise=yes  
+C:C2  N__13 N__1 C=51.324 fF 
+C:C3  N__14 N__15 C=51.324 fF 
+L:L3  N__15 N__24 L=249.438 pH Noise=yes  
+C:C4  N__19 N__0 C=51.324 fF 
+L:L4  N__0 N__6 L=249.438 pH Noise=yes  
+mGND:mGND1  N__3 
+mGND:mGND2  N__7 
+mGND:mGND3  N__24 
+mGND:mGND4  N__6 

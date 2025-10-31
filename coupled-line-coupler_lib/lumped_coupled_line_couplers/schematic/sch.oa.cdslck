@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Fri 31 Oct 2025 02:01:38 PM CET CET
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/danieltyukov/coupled-line-coupler_wrk/coupled-line-coupler_lib/ideal_coupled_line_couplers/schematic/sch.oa.cdslck
-TimeEditLocked                 Fri 31 Oct 2025 02:01:56 PM CET CET
+FilePathUsedToEditLock         /home/danieltyukov/coupled-line-coupler_wrk/coupled-line-coupler_lib/lumped_coupled_line_couplers/schematic/sch.oa.cdslck
+TimeEditLocked                 Fri 31 Oct 2025 04:41:05 PM CET CET
