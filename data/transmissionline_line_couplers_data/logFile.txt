@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sat Nov  1 23:50:15 2025
+      Running on host: "LAPTOP-I0QR8B3T"
+      In Directory: "C:\Users\14765\EM_assignment_wrk\tud-electromagnetics\data"
+      Process ID: 26388
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 4
+
+
+SP SP1[1] <coupled-line-coupler_lib:transmissionline_line_couplers:schematic>   freq=(50 GHz->70 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.17 seconds.
+
