@@ -3,10 +3,10 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sat Nov  1 17:04:33 2025
+***** Simulation started at Sun Nov  2 16:44:49 2025
       Running on host: "LAPTOP-I0QR8B3T"
       In Directory: "C:\Users\14765\EM_assignment_wrk\tud-electromagnetics\data"
-      Process ID: 26752
+      Process ID: 28048
 
 Pt DC convergence is used.
 
@@ -14,5 +14,5 @@ SP SP1[1] <coupled-line-coupler_lib:lumped_coupled_line_couplers:schematic>   fr
 
 
 Resource usage:
-  Total stopwatch time     =    49.79 seconds.
+  Total stopwatch time     =     1.26 seconds.
 

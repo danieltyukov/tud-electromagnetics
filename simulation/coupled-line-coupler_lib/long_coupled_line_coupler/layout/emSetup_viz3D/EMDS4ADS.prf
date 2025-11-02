@@ -1,0 +1,53 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  C:/Users/14765/EM_assignment_wrk/tud-electromagnetics/simulation/coupled-line-coupler_lib/long_coupled_line_coupler/layout/emSetup_viz3D/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Material __BOTTOM     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_3     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_4     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object __BOTTOM_2     0.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object cond_3 1  1  50  
+  Object cond_4 1  1  50  
+  Object __BOTTOM_2 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     2.5349741210937500e+03      7.5651501464843750e+02      2.3347058105468750e+03  
+  Target     3.9164999389648438e+02     -2.6794750976562500e+02      1.4450000000000000e+02  
+  Up    -6.5231788158416748e-01     -1.9889008998870850e-01      7.3138523101806641e-01  
+      1.2924621582031250e+03      1.2924621582031250e+03  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

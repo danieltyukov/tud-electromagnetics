@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Schematic x1="-1" view="schematic" y1="-9" lib="coupled-line-coupler_lib" geom="1,0,3,179,198,1536,816,1920,1080" width="1920" height="991" cell="transmissionline_line_couplers"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

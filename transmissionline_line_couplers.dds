@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2025-11-01T20:27:08Z");
+	set(ddoId, "FileModifiedDateAndTime", "2025-11-02T14:45:07Z");
 	set(ddoId, "FileCreatedDateAndTime", "2025-11-01T16:47:18Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -86,8 +86,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 63000000000);
-		set(axisID, "IndepStop", 75000000000);
+		set(axisID, "IndepStart", 50000000000);
+		set(axisID, "IndepStop", 70000000000);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -124,8 +124,8 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 //Polar axis...
 	if (axisID != NULL) {
 		set(axisID, "DisplayAllIndependentData", TRUE);
-		set(axisID, "IndepStart", 63000000000);
-		set(axisID, "IndepStop", 75000000000);
+		set(axisID, "IndepStart", 50000000000);
+		set(axisID, "IndepStop", 70000000000);
 	}
 //Smith chart axis...
 	if (axisID != NULL) {
@@ -296,7 +296,7 @@ traceID = get_new(goId0, "Trace", "S(4,4)", "X Axis", "Y Axis");
 		}
 		set(traceID, "TraceLabelOffset", 100);
 	}
-markerID = get_new(traceID, "MarkerNew", "m1", "64894736842.10527038574218750000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m1", "63846153846.15379333496093750000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1613147059);
@@ -350,8 +350,8 @@ markerID = get_new(traceID, "MarkerNew", "m1", "64894736842.10527038574218750000
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 9000);
 		set(markerID, "MkrReadoutRight", 11562);
-		set(markerID, "MkrReadoutBottom", 1587);
-		set(markerID, "MkrReadoutTop", 875);
+		set(markerID, "MkrReadoutBottom", 1712);
+		set(markerID, "MkrReadoutTop", 1000);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 6);
 		set(markerID, "MkrIndicatorType", 0);
@@ -411,8 +411,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 62000000000);
-		 set(axisID, "MaxValue", 76000000000);
+		 set(axisID, "MinValue", 50000000000);
+		 set(axisID, "MaxValue", 70000000000);
 		 set(axisID, "StepSize", 2000000000);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
@@ -434,9 +434,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -50);
-		 set(axisID, "MaxValue", 0);
-		 set(axisID, "StepSize", 10);
+		 set(axisID, "MinValue", -40);
+		 set(axisID, "MaxValue", -10);
+		 set(axisID, "StepSize", 5);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
 		 set(axisID, "Format", ddsFormatAutomatic);
@@ -659,7 +659,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "Right", 3975);
 	set(goId0, "Bottom", 6129);
 	set(goId0, "Left", -694);
-	set(goId0, "Top", 3008);
+	set(goId0, "Top", 3012);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
 	set(goId0, "Xrot", 0);
@@ -674,7 +674,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 819);
 	set(goId0, "RightMargin", 100);
-	set(goId0, "TopMargin", 242);
+	set(goId0, "TopMargin", 238);
 	set(goId0, "BottomMargin", 504);
 // Plot Title...
 	set(goId0, "Title", "");
@@ -696,8 +696,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 62000000000);
-		 set(axisID, "MaxValue", 76000000000);
+		 set(axisID, "MinValue", 50000000000);
+		 set(axisID, "MaxValue", 70000000000);
 		 set(axisID, "StepSize", 2000000000);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Arial For CAE");
@@ -719,7 +719,7 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 112);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -30);
+		 set(axisID, "MinValue", -25);
 		 set(axisID, "MaxValue", 0);
 		 set(axisID, "StepSize", 5);
 		 set(axisID, "Logarithmic", FALSE);
@@ -813,7 +813,7 @@ traceID = get_new(goId0, "Trace", "dB(S(1,2))", "X Axis", "Y Axis");
 		}
 		set(traceID, "TraceLabelOffset", 100);
 	}
-markerID = get_new(traceID, "MarkerNew", "m2", "64000000000.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m2", "64062499998.12500000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 301376978);
@@ -920,7 +920,7 @@ traceID = get_new(goId0, "Trace", "dB(S(1,3))", "X Axis", "Y Axis");
 		}
 		set(traceID, "TraceLabelOffset", 100);
 	}
-markerID = get_new(traceID, "MarkerNew", "m3", "64000000000.00000000000000000000000000000000", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "m3", "63958333331.25000000000000000000000000000000", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1448596059);
@@ -973,7 +973,7 @@ markerID = get_new(traceID, "MarkerNew", "m3", "64000000000.00000000000000000000
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 1625);
-		set(markerID, "MkrReadoutRight", 3105);
+		set(markerID, "MkrReadoutRight", 3092);
 		set(markerID, "MkrReadoutBottom", 3045);
 		set(markerID, "MkrReadoutTop", 2500);
 		set(markerID, "MkrIndicatorColor", 0);
@@ -1107,7 +1107,7 @@ markerID = get_new(traceID, "MarkerNew", "m4", "64000000000.00000000000000000000
 ddWinId = get_new(ddsId, "Window", 192, 108, 1536, 864);
 	set(ddWinId, "Object", ddoId);
 	set(ddWinId, "CurrentPage", 539239300);
-	set(ddWinId, "PageViewRect_539239300", list(-2216, 6983, 12993, -1241));
+	set(ddWinId, "PageViewRect_539239300", list(-2222, 6987, 12995, -1241));
 	set(ddWinId, "Frame", list(192, 108, 1536, 864));
 	set(ddWinId, "Maximized", FALSE);
 	set(ddWinId, "ForegroundColor", 0);

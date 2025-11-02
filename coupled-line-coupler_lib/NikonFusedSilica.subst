@@ -1,0 +1,16 @@
+<!DOCTYPE Substrate>
+<SubstrateModel>
+    <stack PURPOSE_TREATMENT="USE_ALL_EXCEPT_SPECIFIED" BAL_TYPE="NONE" SPECIFIED_PURPOSES="" BAL_NUM="0">
+        <material BAL_TYPE="INHERIT" BAL_NUM="0" materialname="AIR"/>
+        <interface BAL_TYPE="NONE" thickunit="micron" groundplane="1" BAL_NUM="0" materialname="Aluminium" thick="4"/>
+        <material BAL_TYPE="INHERIT" thickunit="micron" BAL_NUM="0" materialname="Quartz" thick="200"/>
+        <interface BAL_TYPE="INHERIT" thickunit="micron" BAL_NUM="0" materialname="" thick=""/>
+        <material BAL_TYPE="INHERIT" BAL_NUM="0" materialname="AIR"/>
+    </stack>
+    <layers>
+        <layer index="1" pinsOnly="0" sheet="0" toprough="" angle="90" thickunit="micron" negative="0" subtype="0" bottomrough="" precedence="1" processRole="1" expand="0" layer="1" materialname="Aluminium" thick="4"/>
+        <layer index="1" pinsOnly="0" sheet="0" toprough="" angle="90.0" thickunit="nanometer" negative="0" subtype="0" bottomrough="" precedence="0" processRole="1" expand="0" layer="3" materialname="Nikon" thick="100"/>
+    </layers>
+    <vias/>
+    <substrates/>
+</SubstrateModel>

@@ -1135,7 +1135,7 @@
           <Port version="1.3">
             <portNum>1</portNum>
             <portName>P1</portName>
-            <refImpedance>97:0</refImpedance>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
@@ -1150,7 +1150,7 @@
           <Port version="1.3">
             <portNum>2</portNum>
             <portName>P2</portName>
-            <refImpedance>97:0</refImpedance>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
@@ -1165,7 +1165,7 @@
           <Port version="1.3">
             <portNum>3</portNum>
             <portName>P3</portName>
-            <refImpedance>97:0</refImpedance>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>
@@ -1180,7 +1180,7 @@
           <Port version="1.3">
             <portNum>4</portNum>
             <portName>P4</portName>
-            <refImpedance>97:0</refImpedance>
+            <refImpedance>50:0</refImpedance>
             <feedType>Auto</feedType>
             <refoffset>0</refoffset>
             <termType>2</termType>

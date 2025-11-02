@@ -1,5 +1,5 @@
-Using the minimal snap distance of 0.004 um
-(4 layout resolution points) for layout healing.
+Automatically determined a snap distance of
+0.035 um for layout healing.
 
 --- WARNING -------------------------------------------------------------------
 
@@ -11,4 +11,3 @@ report.
 -------------------------------------------------------------------------------
 
 Generating mesh at 70 GHz...
-Port solver: missing cti file (falling back to a conservative calculation)

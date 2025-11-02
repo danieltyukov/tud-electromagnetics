@@ -3,7 +3,7 @@
                   ------ MOMENTUM STATISTICS (MW mode) ------
 
               Momentum MomEngine_64 2024.20.133 (*) built: Mar 27 2024
-                           Sat Nov  1 23:56:59 2025
+                           Sun Nov  2 11:43:28 2025
 
 ==============================================================================
 
@@ -26,7 +26,7 @@ PROCESSES                      (h:m:s)          (h:m:s)         (MB)
 
 SIMULATION SET-UP
 -----------------
- Initialization           |     0: 0: 0   |     0: 0: 0   |     37.38   
+ Initialization           |     0: 0: 0   |     0: 0: 0   |     37.40   
  Ports analysis           |     0: 0: 0   |     0: 0: 0   |      0.09   
  Mesh processing          |     0: 0: 0   |     0: 0: 0   |     14.91   
 
@@ -38,16 +38,16 @@ SIMULATION SET-UP
 
 1. SIMULATION FREQUENCY = 10 GHz 
 -------------------------
- Green functions          |     0: 0: 0   |     0: 0: 0   |      1.56   
- Basis creation           |     0: 0: 0   |     0: 0: 0   |      5.74   
- Matrix load              |     0: 0: 1   |     0: 0: 0   |     29.60   
- Matrix solve             |     0: 0: 0   |     0: 0: 0   |      2.99   
+ Green functions          |     0: 0: 0   |     0: 0: 0   |      1.40   
+ Basis creation           |     0: 0: 0   |     0: 0: 0   |      5.71   
+ Matrix load              |     0: 0: 0   |     0: 0: 1   |     29.72   
+ Matrix solve             |     0: 0: 1   |     0: 0: 0   |      2.95   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.02   
 
 2. SIMULATION FREQUENCY = 100 GHz 
 -------------------------
- Green functions          |     0: 0: 0   |     0: 0: 0   |      0.52   
- Matrix load              |     0: 0: 1   |     0: 0: 0   |      9.65   
+ Green functions          |     0: 0: 0   |     0: 0: 0   |      0.51   
+ Matrix load              |     0: 0: 1   |     0: 0: 0   |      9.70   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
@@ -55,23 +55,23 @@ SIMULATION SET-UP
 3. SIMULATION FREQUENCY = 70 GHz 
 -------------------------
  Green functions          |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix load              |     0: 0: 0   |     0: 0: 1   |      2.38   
- Matrix solve             |     0: 0: 1   |     0: 0: 0   |      0.00   
+ Matrix load              |     0: 0: 1   |     0: 0: 0   |      2.38   
+ Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
 
 4. SIMULATION FREQUENCY = 40 GHz 
 -------------------------
  Green functions          |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.73   
+ Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.38   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
- Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.59   
+ Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.23   
 
 5. SIMULATION FREQUENCY = 90 GHz 
 -------------------------
  Green functions          |     0: 0: 0   |     0: 0: 0   |      0.01   
- Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.78   
+ Matrix load              |     0: 0: 1   |     0: 0: 1   |      0.81   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
@@ -79,7 +79,7 @@ SIMULATION SET-UP
 6. SIMULATION FREQUENCY = 55 GHz 
 -------------------------
  Green functions          |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.38   
+ Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.36   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
@@ -87,7 +87,7 @@ SIMULATION SET-UP
 7. SIMULATION FREQUENCY = 96.6667 GHz 
 -------------------------
  Green functions          |     0: 0: 0   |     0: 0: 0   |      0.00   
- Matrix load              |     0: 0: 1   |     0: 0: 1   |      0.01   
+ Matrix load              |     0: 0: 1   |     0: 0: 0   |      0.01   
  Matrix solve             |     0: 0: 0   |     0: 0: 0   |      0.00   
  S parameters             |     0: 0: 0   |     0: 0: 0   |      0.00   
  Adaptive sampling        |     0: 0: 0   |     0: 0: 0   |      0.00   
@@ -105,9 +105,9 @@ TOTALS
 ------------------------------------------------------------------------------
  Nr of Frequencies   : 8 
 
- Physical memory :   107.36 MB
- Virtual memory  :   131.86 MB
- Page faults     :       29726
+ Physical memory :   106.61 MB
+ Virtual memory  :   130.08 MB
+ Page faults     :       29770
  User Time       :    0h 0m 9s
  Elapsed Time    :    0h 0m 2s
 

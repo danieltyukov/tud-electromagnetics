@@ -2132,16 +2132,16 @@ BdefIA 652:
   b 652: e 2 c 9;
 ;
 PdefRA 4 {
-GdefRA 1 /Zd 1 {97 0} {
+GdefRA 1 /Zd 1 {50 0} {
   Prt 1 : ErefRA 5 { 20 18 16 14 12 };
 }
-GdefRA 1 /Zd 1 {97 0} {
+GdefRA 1 /Zd 1 {50 0} {
   Prt 2 : ErefRA 5 { 182 183 184 185 186 };
 }
-GdefRA 1 /Zd 1 {97 0} {
+GdefRA 1 /Zd 1 {50 0} {
   Prt 3 : ErefRA 5 { 9 7 5 3 1 };
 }
-GdefRA 1 /Zd 1 {97 0} {
+GdefRA 1 /Zd 1 {50 0} {
   Prt 4 : ErefRA 5 { 177 178 179 180 181 };
 }
 }
