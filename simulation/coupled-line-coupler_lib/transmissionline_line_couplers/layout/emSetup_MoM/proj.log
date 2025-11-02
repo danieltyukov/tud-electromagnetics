@@ -1,8 +1,8 @@
-License checkout took 0.318 sec
-License checkout took 0.114 sec
+License checkout took 0.135 sec
+License checkout took 0.095 sec
 Momentum MomEngine_64 2024.20.133 (*) built: Mar 27 2024
 Copyright  1992 - 2024 Keysight Technologies
-Simulation started on: Sun Nov  2 16:52:28 2025
+Simulation started on: Sun Nov  2 22:33:13 2025
 Simulation Mode: uW
 Substrate valid
 Automatically determined a snap distance of
@@ -23,13 +23,12 @@ Generating mesh at 70 GHz...
 S-parameter simulation
 S-parameter simulation started
 ...initializing
-...expanding thick conductors
 ...extracting layout
 ...analyzing ports
 ...reducing mesh
-Automatic selection: direct compressed matrix solver
+Automatic selection: direct dense matrix solver
 Using multi-threading (8 threads)
-Matrix size: 5880 (reduced: 5880)
+Matrix size: 2058 (reduced: 2058)
 Simulation temperature: 298.15 K
 Adaptive frequency sweep started
 Simulation frequency [1] = 60 GHz
@@ -72,5 +71,5 @@ Simulation frequency [5] = 68.8889 GHz
 ...calculating S-parameters
 Adaptive: 100.0 % of frequency range covered
 S-parameter simulation finished
-Simulation finished on: Sun Nov  2 16:53:24 2025
+Simulation finished on: Sun Nov  2 22:33:23 2025
 The simulation results have been saved in dataset "transmissionline_line_couplers_MomUW".

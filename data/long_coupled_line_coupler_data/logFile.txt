@@ -3,15 +3,15 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sun Nov  2 15:31:48 2025
+***** Simulation started at Sun Nov  2 22:38:14 2025
       Running on host: "LAPTOP-I0QR8B3T"
       In Directory: "C:\Users\14765\EM_assignment_wrk\tud-electromagnetics\data"
-      Process ID: 26716
+      Process ID: 4920
 
 
-SP SP1[1] <coupled-line-coupler_lib:long_coupled_line_coupler:schematic>   freq=(40 GHz->80 GHz)
+SP SP1[1] <coupled-line-coupler_lib:long_coupled_line_coupler:schematic>   freq=(50 GHz->70 GHz)
 
 
 Resource usage:
-  Total stopwatch time     =     1.02 seconds.
+  Total stopwatch time     =     1.04 seconds.
 

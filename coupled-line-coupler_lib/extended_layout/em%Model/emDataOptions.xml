@@ -1,0 +1,11 @@
+<emDataViewOptions>
+  <version major="1" minor="2"/>
+  <Options extrapolationMode="Linear" portTerminalPinsNetlistMode="Shorted" enforcePassivity="DuringExtrapolation" symbolNetlistMode="All pins"/>
+  <cellParameters useInterpolation="no">
+    <parameters>
+      <cellParameter name="l1Lseries" resolution="1e-05" delta="30"/>
+      <cellParameter name="l2Lshunt" resolution="1e-05" delta="30"/>
+      <cellParameter name="l3Lbuffer" resolution="1e-05" delta="30"/>
+    </parameters>
+  </cellParameters>
+</emDataViewOptions>

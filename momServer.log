@@ -1,0 +1,33 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "coupled-line-coupler_lib:extended_layout:emModel"
+  parameterNames = list("l1Lseries","l2Lshunt","Substrate","MeshDensity")
+  parameterValues = list("289.7880000000001","310.2930000000001","definedInState","20")
+  topLevel design name = "coupled-line-coupler_lib:optimise_matching:schematic"
+  instance name = "X1.em_data"
+  processID = "59319@127.0.0.1:hpeesofsim:_unique49975_48"
+  visible = TRUE
+Connected to external process by processID
+..handle = 22
+..pid = 59319@127.0.0.1:hpeesofsim:_unique49975_48
+..name = hpeesofsim
+Creating work design coupled-line-coupler_lib:extended_layout:layout_hpeesofsim
+..new work design opened
+..inserting instance of coupled-line-coupler_lib:extended_layout:layout
+..promoting instance pins and ports
+Successfully created the work design
+Successfully created the associated schematic of the work design
+Starting EM simulation for design: coupled-line-coupler_lib:extended_layout:layout_hpeesofsim
+  Contains instance of : coupled-line-coupler_lib:extended_layout:layout
+  EM setup view name   : emSetup_hpeesofsim
+  EM model design name   : coupled-line-coupler_lib:extended_layout:emModel
+..disable simulation log popup
+..simulation M251102222516 started
+..simulation M251102222516 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..deleting layout_hpeesofsim view for work design
+..deleting schematic_hpeesofsim view for work design
+..deleting emSetup_hpeesofsim view for work design
+..deleting simulation directory for work design
+..sending DONE to parent

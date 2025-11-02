@@ -1,9 +1,7 @@
 BEGIN_SUBSTRATE
-2 __SubstrateLayer1
-1 __ExpandLayer__TOP_4
+1 __SubstrateLayer1
 0 __TOP
 END_SUBSTRATE
 BEGIN_MASK
-5 hole
 1 cond
 END_MASK

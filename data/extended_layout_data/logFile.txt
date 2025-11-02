@@ -3,18 +3,31 @@ hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
     (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
 
 
-***** Simulation started at Sun Nov  2 16:43:34 2025
+***** Simulation started at Sun Nov  2 21:50:58 2025
       Running on host: "LAPTOP-I0QR8B3T"
       In Directory: "C:\Users\14765\EM_assignment_wrk\tud-electromagnetics\data"
-      Process ID: 17660
-
-Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 1
+      Process ID: 18616
 
 
-SP SP1[1] <coupled-line-coupler_lib:extended_layout:schematic>   freq=(50 GHz->70 GHz)
+OPTIM Optim1[1] <coupled-line-coupler_lib:extended_layout:schematic>  optIter=(0->1000)
 
+SP Optim1[1].SP2[0] <coupled-line-coupler_lib:extended_layout:schematic>  optIter=0  freq=64 GHz
+
+Iteration/Trial #0:
+  CurrentEF: 2.86309583174705
+  Optimization variables:
+    Lseries = 273.837
+    Lshunt = 381.155
+
+SP Optim1[1].SP2[1] <coupled-line-coupler_lib:extended_layout:schematic>  optIter=1  freq=64 GHz
+
+Iteration/Trial #1:
+  CurrentEF: 0
+  Optimization variables:
+    Lseries = 261.6998801391733
+    Lshunt = 412.9962917926798
+Optim1[1] reached the goals. 
 
 Resource usage:
-  Total stopwatch time     =     1.12 seconds.
+  Total stopwatch time     =    12.06 seconds.
 

@@ -1,0 +1,177 @@
+
+hpeesofsim (*) 600.shp Apr  3 2024, MINT version 5
+    (64-bit windows built: Wed Apr 03, 2024 19:25:42 +0000)
+
+
+***** Simulation started at Sun Nov  2 22:04:13 2025
+      Running on host: "LAPTOP-I0QR8B3T"
+      In Directory: "C:\Users\14765\EM_assignment_wrk\tud-electromagnetics\data"
+      Process ID: 15396
+
+
+OPTIM Optim1[1] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=(0->1000)
+
+SP Optim1[1].SP2[0] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=0  freq=64 GHz
+
+Iteration/Trial #0:
+  CurrentEF: 0.0771414606632527
+  Optimization variables:
+    X1.l1Lseries = 223.626
+    X1.l2Lshunt = 412.996
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+
+SP Optim1[1].SP2[2] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=2  freq=64 GHz
+
+Iteration/Trial #2:
+  CurrentEF: 137.575478064546
+  Optimization variables:
+    X1.l1Lseries = 366.535
+    X1.l2Lshunt = 331.152
+
+SP Optim1[1].SP2[3] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=3  freq=64 GHz
+
+Iteration/Trial #3:
+  CurrentEF: 31.2371294920807
+  Optimization variables:
+    X1.l1Lseries = 338.3980647766739
+    X1.l2Lshunt = 321.4694139688045
+
+SP Optim1[1].SP2[4] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=4  freq=64 GHz
+
+Iteration/Trial #4:
+  CurrentEF: 0.174218257151189
+  Optimization variables:
+    X1.l1Lseries = 201.2048118628935
+    X1.l2Lshunt = 453.2454756363082
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+
+SP Optim1[1].SP2[5] <coupled-line-coupler_lib:optimise_matching:schematic>  optIter=5  freq=64 GHz
+
+Iteration/Trial #5:
+  CurrentEF: 0
+  Optimization variables:
+    X1.l1Lseries = 289.788
+    X1.l2Lshunt = 310.293
+Optim1[1] reached the goals. 
+
+Resource usage:
+  Total stopwatch time     =  1287.65 seconds.
+

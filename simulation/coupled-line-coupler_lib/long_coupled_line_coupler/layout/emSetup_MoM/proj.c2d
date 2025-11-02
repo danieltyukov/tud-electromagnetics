@@ -1,6 +1,6 @@
 CITIFILE A.01.01
 #Momentum: B.12.070 (*) built: Mar 27 2024 
-#Momentum Date and Time: Sun Nov  2 16:00:16 2025
+#Momentum Date and Time: Sun Nov  2 22:39:57 2025
 
 NAME PortSet1
 
@@ -15,7 +15,7 @@ DATA LAMBADAI_1[1,1] RI
 
 VAR_LIST_BEGIN
 	 4e+10
-	 7.5e+10
+	 7e+10
 VAR_LIST_END
 
 BEGIN
@@ -41,7 +41,7 @@ DATA LAMBADAI_2[1,1] RI
 
 VAR_LIST_BEGIN
 	 4e+10
-	 7.5e+10
+	 7e+10
 VAR_LIST_END
 
 BEGIN
@@ -67,7 +67,7 @@ DATA LAMBADAI_3[1,1] RI
 
 VAR_LIST_BEGIN
 	 4e+10
-	 7.5e+10
+	 7e+10
 VAR_LIST_END
 
 BEGIN
@@ -93,7 +93,7 @@ DATA LAMBADAI_4[1,1] RI
 
 VAR_LIST_BEGIN
 	 4e+10
-	 7.5e+10
+	 7e+10
 VAR_LIST_END
 
 BEGIN
